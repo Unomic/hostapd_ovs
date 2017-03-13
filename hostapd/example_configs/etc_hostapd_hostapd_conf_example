@@ -1,0 +1,16 @@
+ssid=Eunomic_Jetway2
+wpa_passphrase=eunomic1
+interface=wlan0
+bridge=br0
+auth_algs=3
+channel=6
+driver=nl80211
+hw_mode=g
+logger_stdout=-1
+logger_stdout_level=2
+max_num_sta=30
+macaddr_acl=0
+rsn_pairwise=CCMP
+wpa=2
+wpa_key_mgmt=WPA-PSK
+ap_isolate=1
