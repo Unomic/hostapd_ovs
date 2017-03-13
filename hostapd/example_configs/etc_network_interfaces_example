@@ -6,7 +6,7 @@ auto eth0
 iface eth0 inet dhcp
 
 auto eth1
-iface eth1 inet dhcp
+iface eth1 inet manual
 
 auto br0
 allow-ovs br0
