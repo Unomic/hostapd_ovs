@@ -18,44 +18,52 @@ allow-br0 eth2
 iface eth2 inet manual
 	ovs_bridge br0
 	ovs_type OVSPort
+	ovs_extra set Interface eth2 ofport=1
 
 allow-br0 eth3
 iface eth3 inet manual
 	ovs_bridge br0
 	ovs_type OVSPort
+	ovs_extra set Interface eth3 ofport=2
 
 allow-br0 eth4
 iface eth4 inet manual
 	ovs_bridge br0
 	ovs_type OVSPort
+	ovs_extra set Interface eth4 ofport=3
 
 allow-br0 eth5
 iface eth5 inet manual
 	ovs_bridge br0
 	ovs_type OVSPort
+	ovs_extra set Interface eth5 ofport=4
 
 allow-br0 eth6
 iface eth6 inet manual
 	ovs_bridge br0
 	ovs_type OVSPort
+	ovs_extra set Interface eth6 ofport=5
 
 allow-br0 eth7
 iface eth7 inet manual
 	ovs_bridge br0
 	ovs_type OVSPort
+	ovs_extra set Interface eth7 ofport=6
 
 allow-br0 eth8
 iface eth8 inet manual
 	ovs_bridge br0
 	ovs_type OVSPort
+	ovs_extra set Interface eth8 ofport=7
 
 allow-br0 eth9
 iface eth9 inet manual
 	ovs_bridge br0
 	ovs_type OVSPort
+	ovs_extra set Interface eth9 ofport=8
 
 allow-br0 wlan0
 iface wlan0 inet manual
 	ovs_bridge br0
 	ovs_type OVSPort
-#wireless-mode Master
+	ovs_extra set Interface wlan0 ofport=9
