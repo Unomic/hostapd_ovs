@@ -13,6 +13,7 @@ allow-ovs br0
 iface br0 inet manual
 	ovs_type OVSBridge
 	ovs_ports eth2 eth3 eth4 eth5 eth6 eth7 eth8 eth9 wlan0
+	ovs_extra set-controller br0 tcp:10.10.111.111:1111 -- set-fail-mode br0 standalone
 
 allow-br0 eth2
 iface eth2 inet manual
