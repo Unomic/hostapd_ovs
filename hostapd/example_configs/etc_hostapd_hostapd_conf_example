@@ -6,6 +6,10 @@ auth_algs=3
 channel=6
 driver=nl80211
 hw_mode=g
+# Uncomment these if your chipset supports 11n
+#ieee80211n=1
+#wmm_enabled=1
+#ht_capab=[HT40][SHORT-GI-40][DSSS_CCK-40]
 logger_stdout=-1
 logger_stdout_level=2
 max_num_sta=30
